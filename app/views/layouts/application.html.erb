@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- only render logout button once @user has value and loggedin is true -->
     <% if !@user %>
     <% elsif @user.log %>
       <%= render "layouts/header" %>
