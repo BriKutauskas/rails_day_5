@@ -1,0 +1,12 @@
+
+<h1>Hello <%= @user.show_username %> </h1>
+
+<h2>User Info:</h2>
+
+<p>Name: <%= @user.show_fullname %> </p>
+<p>Address: <%= @user.show_address %> </p>
+<p>Email: <%= @user.show_email %> </p>
+
+<form action="create" method="get">
+  <input type="submit" value="Log Out">
+</form>

@@ -1,0 +1,11 @@
+<h1>Log In</h1>
+
+<form class="" action="login" method="get">
+  <input type="text" name="userlogin" placeholder="Username">
+  <input type="password" name="passlogin" placeholder="Password">
+  <input type="submit" value="Log In">
+</form>
+
+<% if flash[:notice] %>
+    <p> <%= flash[:notice] %> </p>
+<% end %>
